@@ -42,7 +42,7 @@ antigen use oh-my-zsh
 # Bundles
 antigen bundle pip
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle common-aliases
+antigen bundle zsh-users/zsh-completions
 antigen bundle sublime
 
 # Theme
