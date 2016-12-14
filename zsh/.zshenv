@@ -3,6 +3,7 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 if [ -z ${MSYSTEM+x} ]; then
     PATH="$HOME/.pyenv/bin:$PATH";
+    eval "$(pyenv init -)"
 fi
 
 EDITOR='emacsclient -cna ""'
