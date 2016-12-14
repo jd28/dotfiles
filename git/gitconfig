@@ -1,0 +1,13 @@
+[include]
+	path = ~/.gitconfig-local
+[core]
+	editor = emacsclient -t -a=\\\"\\\"
+	excludesfile = ~/.gitignore_global
+  eol = lf
+  autocrlf = input
+	preloadindex = true
+	fscache = true
+[push]
+	default = matching
+[gc]
+	auto = 256
