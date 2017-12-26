@@ -40,10 +40,13 @@ source $HOME/dotfiles/zsh/aliases.zsh
 antigen use oh-my-zsh
 
 # Bundles
-antigen bundle pip
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-completions
-antigen bundle sublime
+antigen bundle <<EOBUNDLES
+        pip
+        git
+        zsh-users/zsh-syntax-highlighting
+        zsh-users/zsh-completions
+        sublime
+EOBUNDLES
 
 # Theme
 antigen theme "$ZSH_THEME"
