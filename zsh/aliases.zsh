@@ -1,1 +1,1 @@
-alias e='emacsclient -cna ""'
+alias e='emacsclient -n'
