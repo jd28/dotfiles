@@ -37,6 +37,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 source $HOME/dotfiles/zsh/antigen.zsh
 source $HOME/dotfiles/zsh/aliases.zsh
+source $HOME/dotfiles/zsh/shell.zsh
 antigen use oh-my-zsh
 
 # Bundles
