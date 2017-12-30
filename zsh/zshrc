@@ -42,11 +42,10 @@ antigen use oh-my-zsh
 
 # Bundles
 antigen bundle <<EOBUNDLES
-        pip
         git
+        pip
         zsh-users/zsh-syntax-highlighting
         zsh-users/zsh-completions
-        sublime
 EOBUNDLES
 
 # Theme
