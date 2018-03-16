@@ -4,6 +4,14 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 if [ -z ${MSYSTEM+x} ]; then
     PATH="$HOME/.pyenv/bin:$PATH";
     eval "$(pyenv init -)"
+    PATH="$HOME/.rbenv/bin:$PATH";
+    eval "$(rbenv init -)"
 fi
 
 EDITOR='emacsclient -cna ""'
+
+# User configuration
+SSH_KEY_PATH="~/.ssh/id_rsa"
+PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+PATH="/opt/jre1.8.0_161/bin:$PATH"
