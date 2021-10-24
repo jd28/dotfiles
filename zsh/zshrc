@@ -44,6 +44,8 @@ antigen use oh-my-zsh
 antigen bundle emacs git pip
 antigen bundle "zsh-users/zsh-syntax-highlighting"
 antigen bundle "zsh-users/zsh-completions"
+antigen bundle fzf
+antigen bundle ripgrep
 
 # Theme
 antigen theme "$ZSH_THEME"
